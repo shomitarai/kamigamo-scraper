@@ -17,11 +17,11 @@ pip install bs4
 - 神社発の時刻
 
 ```
-python kamigamo-scraper from_shrine
+python kamigamo-scraper.py from_shrine
 ```
 
 - 大学発の時刻
 
 ```
-python kamigamo-scraper from_univ
+python kamigamo-scraper.py from_univ
 ```
