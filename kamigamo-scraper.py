@@ -107,7 +107,7 @@ def main():
         'http://www.kyoto-su.ac.jp/bus/kamigamo/index.html')
 
     now = datetime.now()
-    now += timedelta(minutes=buffer, hours=-7)
+    now += timedelta(minutes=buffer)
 
     # 曜日検索
     days_of_week = now.strftime('%a')
