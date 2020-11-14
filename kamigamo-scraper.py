@@ -126,7 +126,7 @@ def main():
         departure = search_departure(time_table[day][from_], now)
 
     if departure is not None:
-        print(f'🚌 {from_} {departure.hour}:{departure.minute}')
+        print('🚌 {} {:02}:{:02}'.format(from_, departure.hour, departure.minute))
     else:
         print(None)
 
