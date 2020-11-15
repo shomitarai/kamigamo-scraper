@@ -124,6 +124,8 @@ def main():
     # バスの出発時刻検索
     if day in time_table:
         departure = search_departure(time_table[day][from_], now)
+    else:
+        departure = None
 
     if departure is not None:
         print('🚌 {} {:02}:{:02}'.format(from_, departure.hour, departure.minute))
